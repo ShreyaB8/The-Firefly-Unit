@@ -1,0 +1,36 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "convert-csv-to-array": "^1.0.3",
+    "cursor": "^0.1.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "mongo": "^0.1.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.3.0-beta2",
+    "mongoose": "^5.8.9",
+    "mqtt": "^3.0.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.4",
+    "require": "^2.4.20",
+    "save": "^2.4.0",
+    "socket.io": "^2.2.0",
+    "telesignsdk": "^2.2.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "nodemon": "^2.0.2"
+  },
+  "description": ""
+}
