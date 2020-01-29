@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>UserLogs</title>
+    <link rel="stylesheet" type="text/css" href="userlogs.css">
+  </head>
+  <body>
+    <header>
+      <div class = "main">
+        <div class="logo">
+          <a href="admin.html">
+            <img src="srm.png">
+          </a>
+        </div>
+        <u1>
+          <li><a href="adminlogin.html">Log Out</a></li>
+        </u1>
+        <div class="getbut">
+          <section class="get">
+              <!-- <h3>Get Data</h3> -->
+              <a href="/get-data" class="btn">GET DATA</a>
+          <!-- <div class="getDataButton">
+            <form method="post" name="user" action="/get-data">
+              <input type="submit" class= "btn" value="Get Data">
+            </form>
+          </div> -->
+          <!-- <section class="get">
+             <h3>Get Data</h3> 
+            <a href="/get-data">GET DATA</a> -->
+        
+          <div class="data">
+              {{# each items }}
+                  <article class="item">
+                      <div>User Name: {{ this.user_name }}</div>
+                      <div>Authority: {{ this.authority_extend }}</div>
+                      <div>ID: {{ this._id }}</div>
+                  </article>
+              {{/each}}
+          </div>
+          </section>
+       
+          </div>
+        </div>
+
+      
+      <div class="promotion">
+        <h5><center>Developed by The Project Team</center></h5>
+      </div>
+    </header>
+  </body>
+</html>
