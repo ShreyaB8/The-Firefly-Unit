@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header{
+  background-image: url(logs.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+u1{
+  float: right;
+  list-style-type: none;
+  margin-top: 35px;
+  opacity: 0.5;
+  margin-right: 20px;
+}
+
+u1 li{
+  display: inline-block;
+}
+
+u1 li a{
+  text-decoration: none;
+  background-color: #fff;
+  color: #222831;
+  padding: 5px 20px;
+  border: 1px solid;
+  transition: 0.5s ease;
+  }
+
+u1 li a:hover{
+    background-color: #393e46;
+    color: #000;
+  }
+
+.logo img{
+    float: left;
+    width: 210px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+    opacity: 0.8;
+  }
+
+.promotion{
+  position: absolute;
+  bottom: 10px;
+  width: auto;
+  border: transparent;
+  opacity: 0.5;
+}
+
+.box{
+  width: 1350px;
+  height: 420px;
+  background: #d4d7dd;
+  color: #fff;
+  top: 65%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  opacity: 0.6;
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.box input[type="button"]
+{
+  border: none;
+  outline: none;
+  height: 30px;
+  background: #297ca0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 30px;
+  margin-top: 300px;
+  margin-left: 645px;
+}
+
+.box input[type="button"]:hover
+{
+  cursor: pointer;
+  background: #e9ea77;
+  color: #000;
+}
+
+
+.promotion h5{
+  color: #222831;
+  font-size: 10px;
+}
+
+ul {
+  position: absolute;
+  top: 33%;
+  left: 10.5%;
+  opacity: 0.8;
+}
+ ul li{
+   display: inline-block;
+ }
+
+ul li a{
+  text-decoration: none;
+  color: #222831;
+  padding: 3px 1px;
+}
+
+u2{
+  position: absolute;
+  top: 33%;
+  left: 29.3%;
+  opacity: 0.8;
+}
+
+u2 li{
+  display: inline-block;
+}
+
+u2 li a{
+  text-decoration: none;
+  color: #222831;
+  padding: 3px 1px;
+}
+
+u1{
+  float: right;
+  list-style-type: none;
+  margin-top: 35px;
+  opacity: 0.5;
+  margin-right: 20px;
+  color: transparent;
+}
+
+u1 li{
+  display: inline-block;
+}
+
+u1 li a{
+    text-decoration: none;
+    color: #222831;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+  }
+
+u1 li a:hover{
+    background-color: #e5dfdf;
+    color: #000;
+  }
+
+.getbut a{
+    position: absolute;
+    top: 83.5%;
+    left: 86%;
+    opacity: 5;
+  }
+
+
+
+
+  .btn{
+  border: 1px solid #222831;
+  padding: 10px 30px;
+  color: #222831;
+  text-decoration: none;
+  transition: 0.5s ease;
+}

@@ -1,0 +1,32 @@
+.box{
+  width: 1350px;
+  height: 420px;
+  background: #bbbbbb;
+  color: #fff;
+  top: 65%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.box input[type="button"]
+{
+  border: none;
+  outline: none;
+  height: 30px;
+  background: #297ca0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-top: 300px;
+  margin-left: 645px;
+}
+
+.box input[type="button"]:hover
+{
+  cursor: pointer;
+  background: #e9ea77;
+  color: #000;
+}
