@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MachineHealth</title>
+    <link rel="stylesheet" type="text/css" href="machinehealth.css">
+  </head>
+  <body>
+    <header>
+      <div class = "main">
+        <div class="logo">
+          <a href="admin.html">
+            <img src="srm.png">
+          </a>
+        </div>
+        <u1>
+          <li><a href="adminlogin.html">Log Out</a></li>
+        </u1>
+      </div>
+      <div class="getbut">
+        <a href="/machinelogs" class="btn">GET DATA</a>
+    </section>
+    </div>
+      <div class="data">
+        <ul>
+          <%
+            var list = '';
+            for (i = 0; i < machinelogs.length; i++) {
+              list += '<li>' + "Machine Affected: "+machinelogs[i].machine + "-----------Temperature Alert: " +  machinelogs[i].temp_alert +"----------Vibration Alert: "+machinelogs[i].vibration_alert + "----------Humidity Alert: "+machinelogs[i].humidty_alert +"---------Date: " +  machinelogs[i].date  +"---------Time:  "+  machinelogs[i].time  +'</li>';
+            }
+          %>
+          <%- list %>
+        </ul>
+      </div>
+      <div class="promotion">
+        <h5><center>Developed by The Project Team</center></h5>
+      </div>
+    </header>
+  </body>
+</html>

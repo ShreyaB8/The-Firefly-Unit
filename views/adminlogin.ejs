@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Admin | SIIC</title>
+    <link rel="stylesheet" type="text/css" href="adminlogin.css">
+    <link rel="shortcut icon" type="image/x-icon" href="tab.png" />
+  </head>
+  <script type="text/javascript">
+  function display(form){
+  if (form.username.value=="admin") {
+  		if (form.password.value=="admin") {
+                      Location="admin.html"
+  											} else {
+  													alert("Invalid Password")
+  													}
+  								} else {  alert("Invalid Username")
+  										}
+  						}
+  			</script>
+
+
+  <body>
+      <div class="logo">
+      <a href="index.html">
+        <img src="srm.png">
+      </a>
+      </div>
+    <div class="loginbox">
+    <img src="avatar.png" class="avatar">
+      <h1>Admin Login</h1>
+      <form id="form_id" method="POST" name="myform" action="/admin">
+        <p>Username</p>
+        <input type="text" name="username" placeholder="Enter Username" id="username"/>
+
+        <p>Password</p>
+        <input type="password" name="password" placeholder="Enter Password" id="password"/>
+        <input type="submit" value="Login" onClick="display(this.form)"/>
+      </form>
+
+
+  	<div id="status"></div>
+    <div class="promotion">
+      <h5><center>Designed by The Project Team</center></h5>
+    </div>
+
+
+  </body>
+</html>
