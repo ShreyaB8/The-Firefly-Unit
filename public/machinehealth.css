@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header{
+  background-image: url(backbox.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+u1{
+  float: right;
+  list-style-type: none;
+  margin-top: 35px;
+  opacity: 0.5;
+  margin-right: 20px;
+}
+
+u1 li{
+  display: inline-block;
+}
+
+u1 li a{
+    text-decoration: none;
+    color: #222831;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+  }
+
+u1 li a:hover{
+    background-color: #e5dfdf;
+    color: #000;
+  }
+
+.logo img{
+    float: left;
+    width: 210px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+    opacity: 0.8;
+  }
+
+.promotion{
+  position: absolute;
+  bottom: 10px;
+  width: auto;
+  border: transparent;
+  opacity: 0.5;
+}
+
+.promotion h5{
+  color: #222831;
+  font-size: 10px;
+}
+
+.data{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  opacity: 1;
+}
+
+.getbut h3{
+  top: 80%;
+  left: 50%;
+  position: absolute;
+}
+
+.getbut a{
+  position: absolute;
+  top: 80%;
+  left: 47%;
+  opacity: 5;
+}
+
+.getbut button{
+  position: absolute;
+  top: 80%;
+  left: 47%;
+  
+  opacity: 0.5;
+}
+
+.button{
+  position: absolute;
+  top: 65%;
+  left: 42%;
+  transform: translate(-50%,-50%);
+  opacity: 0.5;
+}
+
+
+.btn{
+  border: 1px solid #222831;
+  padding: 10px 30px;
+  color: #222831;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.btn:hover{
+  background-color: #a4a7a8;
+  color: #000;
+}
+
+.getDataButton{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 1;
+}
+

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User List</title>
+    <link rel="stylesheet" type="text/css" href="userdata.css">
+  </head>
+  <body>
+    <ul>
+      <%
+        var list = '';
+        for (i = 0; i < userlist.length; i++) {
+          list += '<li>' + "       UserID      "+userlist[i].User + "       Time      " +  userlist[i].Time +"       Machine Used     "+userlist[i].MachineUsed + "       Date     " +  userlist[i].Date  +'</li>';
+        }
+      %>
+      <%- list %>
+    </ul>
+  </body>
+</html>
