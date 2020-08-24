@@ -7,12 +7,9 @@
   <p align="center">
       <img alt="Status" src="https://img.shields.io/badge/Status-Completed-blue.svg" />
     <br />
-    <a href="https://code.visualstudio.com/">
-      <img src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/>
-    </a>
-    <a href="https://nodejs.org/en/">
-      <img src="https://img.shields.io/badge/Supported%20by-Node%20Cli.com%20%E2%86%92-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/>
-    </a>
+      <img src="https://img.shields.io/badge/Made%20with-Arduino%20IDE%20-gray.svg?colorA=00e6e6&colorB=00b3b3&style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Used%20-LoRaWAN%20-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/Used%20-ZigBee%20-gray.svg?colorA=ffff00&colorB=cccc00&style=for-the-badge"/>
   </p>
 
 ### About the Project
