@@ -1,0 +1,4 @@
+void del_node()
+{
+  
+}
