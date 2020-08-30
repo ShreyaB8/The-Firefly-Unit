@@ -6,11 +6,15 @@
 </p>
   <p align="center">
       <img alt="Status" src="https://img.shields.io/badge/Status-Completed-blue.svg" />
+       <a href="https://github.com/ShreyaB8/The-Firefly-Unit/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/badge/Pull%20request-%203%20open-brightgreen" />
+      </a>
     <br />
       <img src="https://img.shields.io/badge/Made%20with-Arduino%20IDE%20-gray.svg?colorA=00e6e6&colorB=00b3b3&style=for-the-badge"/>
-      <br>
       <img src="https://img.shields.io/badge/Built%20on%20-LoRaWAN%20-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/>
       <img src="https://img.shields.io/badge/Built%20on%20-ZigBee%20-gray.svg?colorA=ffff00&colorB=cccc00&style=for-the-badge"/>
+      <br>
+      <a href="https://youtu.be/Dq-WBzGOTVA">Watch the Presentation</a>
   </p>
 
 ### About the Project
